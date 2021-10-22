@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v5.3.99',
-        'version' => '5.3.99.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'symfony/website-skeleton',
+        'reference' => 'f35e9c8ecae94356ca911c4f4bcf4193a5c9ba49',
+        'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'f35e9c8ecae94356ca911c4f4bcf4193a5c9ba49',
+            'dev_requirement' => false,
+        ),
         'symfony/flex' => array(
             'pretty_version' => 'v1.17.2',
             'version' => '1.17.2.0',
@@ -36,15 +45,6 @@
             'replaced' => array(
                 0 => '*',
             ),
-        ),
-        'symfony/website-skeleton' => array(
-            'pretty_version' => 'v5.3.99',
-            'version' => '5.3.99.0',
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
         ),
     ),
 );
